@@ -8,7 +8,7 @@
 </head>
 <body>
 	<%
-	 String myname = (String)request.getAttribute("key-name");
+	 String myname = (String)session.getAttribute("key-name");
 	%>
 
 <h1>Welcome: <%= myname %> </h1>
