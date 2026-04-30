@@ -32,7 +32,7 @@
         out.println("b is greater than 100<br>");
     }
 %>
-
+		
 <br>
 Today's Date: <%= LocalDate.now() %>
 
