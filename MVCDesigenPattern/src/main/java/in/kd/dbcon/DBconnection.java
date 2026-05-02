@@ -6,9 +6,10 @@ public class DBconnection {
 	{
 		Connection con = null;
 		try
-		{ Class.forName("com.mysql.cj.jdbc.Driver"); 
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mvcdb","root","Kailas@2004");
-		System.out.println("connection done"); 
+		{ 
+			Class.forName("com.mysql.cj.jdbc.Driver"); 
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mvcdb","root","Kailas@2004");
+			System.out.println("connection done"); 
 		}
 		catch (Exception e) 
 		{ 
